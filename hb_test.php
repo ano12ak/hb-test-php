@@ -10,7 +10,7 @@ $heartbeat = hex2bin('1803020003014000');
 
 try {
     if ($argc !== 3) {
-        throw new usageException('Connecting failed.');
+        throw new usageException('option error');
     }
 
     $targetHost = $argv[1];
